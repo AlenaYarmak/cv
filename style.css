@@ -1,3 +1,4 @@
+/* RESET */
 * {
     padding: 0;
     margin: 0;
@@ -20,15 +21,23 @@ a {
     background-color: #F0F6FF;
 }
 
+/* PHOTO */
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
 .avatar {
     border-radius: 50%;
     max-width: 150px;
-    margin: 0 70px;
     margin-bottom: 10px;
 }
 
+/* SOCIALS */
 .social__item {
     display: flex;
+    align-items: center;
+    font-size: 10px;
     font-weight: 700;
     color: rgb(23, 107, 135);
     border: 1px solid rgb(23, 107, 135);
@@ -40,3 +49,32 @@ a {
     width: 40px;
     height: 40px;
 }
+
+.social__item-text {
+    margin: 0 10px;
+}
+
+/* SKILLS */
+.skills {
+    margin-top: 20px;
+    max-width: 220px;
+}
+
+.skills__header {
+    padding-bottom: 8px;
+    color: rgb(23, 107, 135);
+    font-size: 20px;
+}
+
+.skills__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills__logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+
