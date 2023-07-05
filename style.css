@@ -17,8 +17,14 @@ a {
 
 .container {
     display: flex;
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     background-color: #F0F6FF;
+}
+
+.right-block {
+    /* border-right: 2px solid rgb(23, 107, 135, .3); */
+    box-shadow: 5px 5px 5px rgb(23, 107, 135, .1);
+    padding: 20px 10px;
 }
 
 /* PHOTO */
@@ -81,6 +87,7 @@ a {
 
 .languages {
     margin-top: 15px;
+    font-size: 11px;
 }
 
 .languages__header {
@@ -95,4 +102,25 @@ a {
 
 .languages__items > .languages__item:not(:first-child) {
     padding-top: 5px;
+}
+
+/* DESCRIPTION */
+
+.description {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(23, 107, 135);
+    text-shadow: 0px 3px 6px rgb(23, 107, 135);
+}
+
+.position {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 0px 2px 4px #333;
 }
