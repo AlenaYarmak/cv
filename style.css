@@ -10,14 +10,14 @@ a {
 }
 
 .template {
-    max-width: 1190px;
+    max-width: 595px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     display: flex;
-    padding: 40px 20px;
+    padding: 20px 10px;
     background-color: #F0F6FF;
 }
 
@@ -77,4 +77,22 @@ a {
     height: 40px;
 }
 
+/* LANGUAGES */
 
+.languages {
+    margin-top: 15px;
+}
+
+.languages__header {
+    color: rgb(23, 107, 135);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.languages__items {
+    list-style-type: none;
+}
+
+.languages__items > .languages__item:not(:first-child) {
+    padding-top: 5px;
+}
