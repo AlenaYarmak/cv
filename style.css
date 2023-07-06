@@ -10,15 +10,26 @@ a {
 }
 
 .template {
-    max-width: 1190px;
+    max-width: 595px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     display: flex;
-    padding: 40px 20px;
+    /* padding: 20px 10px; */
     background-color: #F0F6FF;
+}
+
+.left-block {
+    /* border-right: 2px solid rgb(23, 107, 135, .3); */
+    box-shadow: 5px 5px 5px rgb(23, 107, 135, .1);
+    padding: 20px 10px;
+}
+
+.right-block {
+    padding-left: 10px;
+    padding-right: 30px;
 }
 
 /* PHOTO */
@@ -77,4 +88,117 @@ a {
     height: 40px;
 }
 
+/* LANGUAGES */
 
+.languages {
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.languages__header {
+    color: rgb(23, 107, 135);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.languages__items {
+    list-style-type: none;
+}
+
+.languages__items > .languages__item:not(:first-child) {
+    padding-top: 5px;
+}
+
+/* DESCRIPTION */
+
+.description {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(23, 107, 135);
+    text-shadow: 0px 3px 6px rgb(23, 107, 135);
+}
+
+.position {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 0px 2px 4px #333;
+}
+
+/* PROJECTS */
+
+.projects {
+    color: #333;
+    margin-top: 50px;
+}
+
+.project__title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.project__date {
+    font-size: 10px;
+}
+
+.project__name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.project__tech {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.project__description {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+/* EDUCATION */
+
+.education {
+    margin-top: 15px;
+}
+
+.education__header {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.education__title {
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.education__date {
+    flex-basis: 25%;
+}
+
+.education__name {
+    font-weight: 700;
+    flex-basis: 75%;
+}
+
+/* ABOUT */
+
+.about__header {
+    color: #333;
+    margin: 10px 0px;
+}
+
+.about__text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+}
