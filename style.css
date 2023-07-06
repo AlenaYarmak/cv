@@ -124,3 +124,36 @@ a {
     color: #333;
     text-shadow: 0px 2px 4px #333;
 }
+
+/* PROJECTS */
+
+.projects {
+    color: #333;
+    margin-top: 50px;
+    padding: 0px 30px 0px 10px;
+}
+
+.project__title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.project__date {
+    font-size: 10px;
+}
+
+.project__name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.project__tech {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.project__description {
+    font-size: 12px;
+    padding-top: 10px;
+}
