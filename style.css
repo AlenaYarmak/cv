@@ -86,6 +86,15 @@ a {
 .skills__logo-img {
     width: 40px;
     height: 40px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(4px 4px 5px rgb(237, 236, 236)) invert(0%);
+    transition: filter 0.3s ease-in-out;
+}
+/* skills animations */
+.skills__logo-img:hover {
+    filter: drop-shadow(4px 4px 5px rgb(237, 236, 236)) invert(80%);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* LANGUAGES */
