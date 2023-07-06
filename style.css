@@ -189,3 +189,16 @@ a {
     font-weight: 700;
     flex-basis: 75%;
 }
+
+/* ABOUT */
+
+.about__header {
+    color: #333;
+    margin: 10px 0px;
+}
+
+.about__text {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+}
