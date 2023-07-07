@@ -17,8 +17,8 @@ a {
 
 .container {
     display: flex;
-    /* padding: 20px 10px; */
     background-color: #F0F6FF;
+    margin: 50px auto;
 }
 
 .left-block {
@@ -28,8 +28,7 @@ a {
 }
 
 .right-block {
-    padding-left: 10px;
-    padding-right: 30px;
+    padding: 10px 0px 30px 20px;
 }
 
 /* PHOTO */
