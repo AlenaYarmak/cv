@@ -65,6 +65,12 @@ a {
     border: 1px solid rgb(23, 107, 135);
     border-radius: 25px;
     margin-bottom: 9px;
+    transition: background-color .3s ease-in-out;
+}
+
+.social__item:hover {
+    background-color: rgb(153, 204, 222);
+    transition: background-color .3s ease-in-out;
 }
 
 .social__item-icon-wrapper {
