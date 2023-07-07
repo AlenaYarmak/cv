@@ -36,12 +36,23 @@ a {
 .photo {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .avatar {
     border-radius: 50%;
-    max-width: 150px;
+    border: 4px solid rgb(23, 107, 135);
+    max-width: 140px;
     margin-bottom: 10px;
+    transition: border 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+    border: 4px solid rgb(23, 107, 135, .7);
+    transition: border 0.3s ease-in-out;
+    transform: rotateY(180deg);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* SOCIALS */
@@ -54,6 +65,12 @@ a {
     border: 1px solid rgb(23, 107, 135);
     border-radius: 25px;
     margin-bottom: 9px;
+    transition: background-color .3s ease-in-out;
+}
+
+.social__item:hover {
+    background-color: rgb(153, 204, 222);
+    transition: background-color .3s ease-in-out;
 }
 
 .social__item-icon-wrapper {
@@ -86,6 +103,15 @@ a {
 .skills__logo-img {
     width: 40px;
     height: 40px;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(4px 4px 5px rgb(237, 236, 236)) invert(0%);
+    transition: filter 0.3s ease-in-out;
+}
+/* skills animations */
+.skills__logo-img:hover {
+    filter: drop-shadow(4px 4px 5px rgb(237, 236, 236)) invert(80%);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 /* LANGUAGES */
@@ -121,6 +147,11 @@ a {
     font-weight: 700;
     color: rgb(23, 107, 135);
     text-shadow: 0px 3px 6px rgb(23, 107, 135);
+    transition: filter 0.3s ease-in-out;
+}
+
+.name:hover {
+    filter: drop-shadow(16px 16px 20px #cc56b2);
 }
 
 .position {
@@ -128,6 +159,15 @@ a {
     font-weight: 700;
     color: #333;
     text-shadow: 0px 2px 4px #333;
+    display: inline-block;
+
+    background: linear-gradient(rgb(23, 107, 135) 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .4s, background-position 0s;
+}
+
+.position:hover {
+    --p: 100%;
+    color: #fff;
 }
 
 /* PROJECTS */
